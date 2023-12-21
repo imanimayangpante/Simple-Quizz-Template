@@ -35,4 +35,22 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scene/Lv2/PartFolder/Lv 2 Part 3.unity
     guid: 6f435081acec2674b9028cdb36d016fa
+  - enabled: 1
+    path: Assets/Scene/Lv3/Lv3.unity
+    guid: d7e1b5b01756dfc468f0b877aa5952d7
+  - enabled: 1
+    path: Assets/Scene/Lv3/PartFolder/Lv 3 Part 1.unity
+    guid: 509fc84c7d4ec2942992a90001d5ef62
+  - enabled: 1
+    path: Assets/Scene/Lv3/PartFolder/Lv 3 Part 2.unity
+    guid: 40d834d9de92071479083d455c2990eb
+  - enabled: 1
+    path: Assets/Scene/Lv3/PartFolder/Lv 3 Part 3.unity
+    guid: 9f37e81d5cc1f02458a1d8dccf843d01
+  - enabled: 1
+    path: Assets/Scene/GameOver.unity
+    guid: 262c01bab4dc9644b8b42c87a0d73395
+  - enabled: 1
+    path: Assets/Scene/ThxForPlaying.unity
+    guid: ac6710b24e07ea94994604b137b954ce
   m_configObjects: {}
