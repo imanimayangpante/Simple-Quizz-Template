@@ -35,7 +35,7 @@ public class QuizeComponent : MonoBehaviour
     public string answerText2;
 
     [Space(10)]
-    [Header("Button Answer 2")]
+    [Header("Button Answer 3")]
     public bool btn3BeAns;
     public Image whereImageAns3; // should in OnValidate
     public Sprite btnAnsSprite3;
