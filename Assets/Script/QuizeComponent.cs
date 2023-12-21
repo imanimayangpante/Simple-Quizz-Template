@@ -108,6 +108,12 @@ public class QuizeComponent : MonoBehaviour
         }
     }
 
+    public void BTNNext()
+    {
+        SwithParts.instance.currentQuiz += 1;
+        SwithParts.instance.ShowQuiz();
+    }
+
 
 
 }

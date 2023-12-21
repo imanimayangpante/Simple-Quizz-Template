@@ -19,7 +19,6 @@ public class ChangeScene : MonoBehaviour
         SceneManager.LoadScene(mainMenuScn.name);
     }
 
-
     public void ToChooseLvScene() 
     {
         SceneManager.LoadScene(chooseLvScn.name);
@@ -35,6 +34,12 @@ public class ChangeScene : MonoBehaviour
     {
         Application.Quit();
         Debug.Log("Game had Quit");
+    }
+
+    public void GoToPart(SceneAsset PartScene) 
+    {
+        DataContainer.currentPlayerHealth = 5;
+        SceneManager.LoadScene(PartScene.name);
     }
 }
 
