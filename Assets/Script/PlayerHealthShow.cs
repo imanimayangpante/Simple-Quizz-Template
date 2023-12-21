@@ -7,8 +7,14 @@ using UnityEngine.SceneManagement;
 
 public class PlayerHealthShow : MonoBehaviour
 {
+    public static PlayerHealthShow instance;
     public GameObject[] playerRedHealth;
     public SceneAsset gameOverScn;
+
+    private void Awake()
+    {
+        instance = this;
+    }
 
     private void Start()
     {

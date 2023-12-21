@@ -3,9 +3,8 @@ using System.Collections.Generic;
 using UnityEngine;
 
 //using for edit
-#if UNITY_EDITOR
+
 using UnityEditor;
-#endif
 
 using UnityEngine.SceneManagement;
 
