@@ -11,18 +11,31 @@ using UnityEngine.SceneManagement;
 
 public class ChangeScene : MonoBehaviour
 {
-    public SceneAsset MainMenu;
-    public SceneAsset GameOverSc;
-    public SceneAsset[] NumberLvSc;
+    public SceneAsset mainMenuScn;
+    public SceneAsset chooseLvScn;
+    public SceneAsset[] numberLvScn;
 
-    public void ToStarMenu() 
+    public void ToStartMenu() 
     {
-        SceneManager.LoadScene(MainMenu.name);
+        SceneManager.LoadScene(mainMenuScn.name);
     }
 
-    public void ToLvChoose(int whichLv) 
+
+    public void ToChooseLvScene() 
     {
-        SceneManager.LoadScene(NumberLvSc[whichLv-1].name);
+        SceneManager.LoadScene(chooseLvScn.name);
+    }
+
+    public void ToLvScene(int whichLv)
+    {
+        SceneManager.LoadScene(numberLvScn[whichLv-1].name);
+        DataContainer.currentLevel = whichLv;
+    }
+
+    public void QuitGame() 
+    {
+        Application.Quit();
+        Debug.Log("Game had Quit");
     }
 }
 
