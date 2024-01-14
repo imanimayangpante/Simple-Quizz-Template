@@ -10,23 +10,27 @@ using UnityEngine.SceneManagement;
 
 public class ChangeScene : MonoBehaviour
 {
-    public SceneAsset mainMenuScn;
-    public SceneAsset chooseLvScn;
-    public SceneAsset[] numberLvScn;
+
+    public string mainMenuScn;
+    public string chooseLvScn;
+    public string[] numberLvScn;
+    //public SceneAsset mainMenuScn;
+    //public SceneAsset chooseLvScn;
+    //public SceneAsset[] numberLvScn;
 
     public void ToStartMenu() 
     {
-        SceneManager.LoadScene(mainMenuScn.name);
+        SceneManager.LoadScene(mainMenuScn);
     }
 
     public void ToChooseLvScene() 
     {
-        SceneManager.LoadScene(chooseLvScn.name);
+        SceneManager.LoadScene(chooseLvScn);
     }
 
     public void ToLvScene(int whichLv)
     {
-        SceneManager.LoadScene(numberLvScn[whichLv-1].name);
+        SceneManager.LoadScene(numberLvScn[whichLv-1]);
         DataContainer.currentLevel = whichLv;
     }
 
@@ -36,11 +40,17 @@ public class ChangeScene : MonoBehaviour
         Debug.Log("Game had Quit");
     }
 
-    public void GoToPart(SceneAsset PartScene) 
+    public void GoToPart(string PartScene) 
     {
         DataContainer.currentPlayerHealth = 5;
-        SceneManager.LoadScene(PartScene.name);
+        SceneManager.LoadScene(PartScene);
     }
+
+    //public void GoToPart(SceneAsset PartScene)
+   // {
+   //     DataContainer.currentPlayerHealth = 5;
+  //      SceneManager.LoadScene(PartScene.name);
+   // }
 }
 
 

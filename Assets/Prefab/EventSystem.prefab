@@ -81,9 +81,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 75c6bd8417b260a459482e8419ffcd3b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  mainMenuScn: {fileID: 102900000, guid: 32b72b05b154925429d30b8f2b115040, type: 3}
-  chooseLvScn: {fileID: 102900000, guid: 530098d35e46e7d42afa06fd64a7c42f, type: 3}
+  mainMenuScn: MainMenu
+  chooseLvScn: ChooseLv
   numberLvScn:
-  - {fileID: 102900000, guid: 963072e3b7c67424d8d993bcef636cbf, type: 3}
-  - {fileID: 102900000, guid: 346d0f30ff5b302409daf050483a0a4a, type: 3}
-  - {fileID: 102900000, guid: d7e1b5b01756dfc468f0b877aa5952d7, type: 3}
+  - Lv1
+  - Lv2
+  - Lv3

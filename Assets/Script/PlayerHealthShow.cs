@@ -9,7 +9,8 @@ public class PlayerHealthShow : MonoBehaviour
 {
     public static PlayerHealthShow instance;
     public GameObject[] playerRedHealth;
-    public SceneAsset gameOverScn;
+    public string gameOverScn;
+    //public SceneAsset gameOverScn;
 
     private void Awake()
     {
@@ -41,7 +42,7 @@ public class PlayerHealthShow : MonoBehaviour
         DataContainer.currentPlayerHealth -= 1;
         if (DataContainer.currentPlayerHealth <= 0) 
         {
-            SceneManager.LoadScene(gameOverScn.name);
+            SceneManager.LoadScene(gameOverScn);
         }
         UpdateRedPlayerHealth();
     }

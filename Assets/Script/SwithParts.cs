@@ -9,7 +9,8 @@ public class SwithParts : MonoBehaviour
     public static SwithParts instance;
     public int currentQuiz = 1;
     public GameObject[] QuizzParts;
-    public SceneAsset nextPart;
+    public string nextPart;
+    //public SceneAsset nextPart;
     public GameObject playerData;
 
     private void Awake()
@@ -32,7 +33,7 @@ public class SwithParts : MonoBehaviour
         if (currentQuiz > QuizzParts.Length) 
         {
             currentQuiz = 1;
-            SceneManager.LoadScene(nextPart.name);
+            SceneManager.LoadScene(nextPart);
         }
 
         for (int i = 0; i < QuizzParts.Length; i++)

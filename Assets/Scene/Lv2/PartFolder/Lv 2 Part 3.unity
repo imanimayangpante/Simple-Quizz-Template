@@ -2327,7 +2327,7 @@ MonoBehaviour:
   - {fileID: 966811202}
   - {fileID: 1566193336}
   - {fileID: 177091630}
-  nextPart: {fileID: 102900000, guid: d7e1b5b01756dfc468f0b877aa5952d7, type: 3}
+  nextPart: Lv 3 Part 1
   playerData: {fileID: 1312441312}
 --- !u!1 &721860350
 GameObject:

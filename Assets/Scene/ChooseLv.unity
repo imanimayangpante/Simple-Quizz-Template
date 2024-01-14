@@ -202,10 +202,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: EventSystem
       objectReference: {fileID: 0}
-    - target: {fileID: 1827136618364002791, guid: adb3f6be3b5aa5d4aaae6415cc0666d7, type: 3}
-      propertyPath: numberLvScn.Array.data[1]
-      value: 
-      objectReference: {fileID: 102900000, guid: 346d0f30ff5b302409daf050483a0a4a, type: 3}
     - target: {fileID: 4624235456887981439, guid: adb3f6be3b5aa5d4aaae6415cc0666d7, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0
@@ -246,8 +242,7 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    m_RemovedComponents:
-    - {fileID: 1450971550422039593, guid: adb3f6be3b5aa5d4aaae6415cc0666d7, type: 3}
+    m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents: []

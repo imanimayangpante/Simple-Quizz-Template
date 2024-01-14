@@ -426,6 +426,26 @@ PrefabInstance:
       propertyPath: m_Name
       value: EventSystem
       objectReference: {fileID: 0}
+    - target: {fileID: 1827136618364002791, guid: adb3f6be3b5aa5d4aaae6415cc0666d7, type: 3}
+      propertyPath: chooseLvScn
+      value: ChooseLv
+      objectReference: {fileID: 0}
+    - target: {fileID: 1827136618364002791, guid: adb3f6be3b5aa5d4aaae6415cc0666d7, type: 3}
+      propertyPath: mainMenuScn
+      value: MainMenu
+      objectReference: {fileID: 0}
+    - target: {fileID: 1827136618364002791, guid: adb3f6be3b5aa5d4aaae6415cc0666d7, type: 3}
+      propertyPath: numberLvScn.Array.data[0]
+      value: Lv1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1827136618364002791, guid: adb3f6be3b5aa5d4aaae6415cc0666d7, type: 3}
+      propertyPath: numberLvScn.Array.data[1]
+      value: Lv2
+      objectReference: {fileID: 0}
+    - target: {fileID: 1827136618364002791, guid: adb3f6be3b5aa5d4aaae6415cc0666d7, type: 3}
+      propertyPath: numberLvScn.Array.data[2]
+      value: Lv3
+      objectReference: {fileID: 0}
     - target: {fileID: 4624235456887981439, guid: adb3f6be3b5aa5d4aaae6415cc0666d7, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0
