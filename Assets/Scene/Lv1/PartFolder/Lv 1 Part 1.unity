@@ -231,7 +231,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: this is answer 2
+  m_Text: See-Saw
 --- !u!222 &73800393
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -563,7 +563,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: this is answer 3
+  m_Text: Linear
 --- !u!222 &252021825
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -1502,7 +1502,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 0}
+  m_Sprite: {fileID: 21300000, guid: a52312985d8367c4b8d951d41af266cc, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -2044,7 +2044,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: this is answer 1
+  m_Text: Square pyramidral
 --- !u!222 &649687082
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -2142,7 +2142,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: this is answer 1
+  m_Text: Octahedral
 --- !u!222 &675656078
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -2240,7 +2240,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: this is question 2
+  m_Text: What is this called ?
 --- !u!222 &706784707
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -2380,7 +2380,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: this is answer 2
+  m_Text: T-shaped
 --- !u!222 &721860352
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -2608,7 +2608,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 0.42745098}
+  m_Color: {r: 0.21960786, g: 0.21960786, b: 0.21960786, a: 0}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -2919,7 +2919,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: this is question 1
+  m_Text: What is this called ?
 --- !u!222 &848853767
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -3034,7 +3034,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 0.42745098}
+  m_Color: {r: 0, g: 0, b: 0, a: 0}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -3164,7 +3164,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 0.42745098}
+  m_Color: {r: 0.21960786, g: 0.21960786, b: 0.21960786, a: 0}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -3282,7 +3282,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &966811203
 RectTransform:
   m_ObjectHideFlags: 0
@@ -3318,24 +3318,24 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   whereImageQuestion: {fileID: 1588293391}
-  QuestionImageSprite: {fileID: 0}
+  QuestionImageSprite: {fileID: 21300000, guid: 80cc4c53772f7c34386757e43a7800a8, type: 3}
   whereIsQuestion: {fileID: 1637493701}
-  questionText: this is question 2
+  questionText: What is this called ?
   btn1BeAns: 1
   whereImageAns1: {fileID: 2134234011}
   btnAnsSprite1: {fileID: 0}
   whereTextAns1: {fileID: 1094492858}
-  answerText1: this is answer 1
+  answerText1: Tetrahedral
   btn2BeAns: 0
   whereImageAns2: {fileID: 1652272830}
   btnAnsSprite2: {fileID: 0}
   whereTextAns2: {fileID: 721860351}
-  answerText2: this is answer 2
+  answerText2: T-shaped
   btn3BeAns: 0
   whereImageAns3: {fileID: 918621915}
   btnAnsSprite3: {fileID: 0}
   whereTextAns3: {fileID: 252021824}
-  answerText3: this is answer 3
+  answerText3: Linear
 --- !u!1 &978677431
 GameObject:
   m_ObjectHideFlags: 0
@@ -3387,7 +3387,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: this is answer 2
+  m_Text: Square planar
 --- !u!222 &978677433
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -3446,7 +3446,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 0.42745098}
+  m_Color: {r: 0.21960786, g: 0.21960786, b: 0.21960786, a: 0}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -3631,7 +3631,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: this is answer 1
+  m_Text: Tetrahedral
 --- !u!222 &1094492859
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -3912,7 +3912,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 0}
+  m_Sprite: {fileID: 21300000, guid: 282ac3abd21874b4092b5241f666de15, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -3973,7 +3973,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: this is answer 3
+  m_Text: T-shaped
 --- !u!222 &1261965908
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -4017,7 +4017,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1281113257
 RectTransform:
   m_ObjectHideFlags: 0
@@ -4053,24 +4053,24 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   whereImageQuestion: {fileID: 467144623}
-  QuestionImageSprite: {fileID: 0}
+  QuestionImageSprite: {fileID: 21300000, guid: a52312985d8367c4b8d951d41af266cc, type: 3}
   whereIsQuestion: {fileID: 848853766}
-  questionText: this is question 1
-  btn1BeAns: 1
+  questionText: What is this called ?
+  btn1BeAns: 0
   whereImageAns1: {fileID: 1524171354}
   btnAnsSprite1: {fileID: 0}
   whereTextAns1: {fileID: 675656077}
-  answerText1: this is answer 1
+  answerText1: Octahedral
   btn2BeAns: 0
   whereImageAns2: {fileID: 1839243120}
   btnAnsSprite2: {fileID: 0}
   whereTextAns2: {fileID: 73800392}
-  answerText2: this is answer 2
-  btn3BeAns: 0
+  answerText2: See-Saw
+  btn3BeAns: 1
   whereImageAns3: {fileID: 939252368}
   btnAnsSprite3: {fileID: 0}
   whereTextAns3: {fileID: 1692617644}
-  answerText3: this is answer 3
+  answerText3: Trigonal pyramidral
 --- !u!1 &1312441312 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 1219868791721025697, guid: f4f8be12352d0a14280915f736ff6eca, type: 3}
@@ -4716,7 +4716,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 0.42745098}
+  m_Color: {r: 0.21960786, g: 0.21960786, b: 0.21960786, a: 0}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -4929,24 +4929,24 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   whereImageQuestion: {fileID: 1161645902}
-  QuestionImageSprite: {fileID: 0}
+  QuestionImageSprite: {fileID: 21300000, guid: 282ac3abd21874b4092b5241f666de15, type: 3}
   whereIsQuestion: {fileID: 706784706}
-  questionText: this is question 2
-  btn1BeAns: 1
+  questionText: What is this called ?
+  btn1BeAns: 0
   whereImageAns1: {fileID: 990993603}
   btnAnsSprite1: {fileID: 0}
   whereTextAns1: {fileID: 649687081}
-  answerText1: this is answer 1
-  btn2BeAns: 0
+  answerText1: Square pyramidral
+  btn2BeAns: 1
   whereImageAns2: {fileID: 756567388}
   btnAnsSprite2: {fileID: 0}
   whereTextAns2: {fileID: 978677432}
-  answerText2: this is answer 2
+  answerText2: Square planar
   btn3BeAns: 0
   whereImageAns3: {fileID: 2036108593}
   btnAnsSprite3: {fileID: 0}
   whereTextAns3: {fileID: 1261965907}
-  answerText3: this is answer 3
+  answerText3: T-shaped
 --- !u!1 &1588293388
 GameObject:
   m_ObjectHideFlags: 0
@@ -5012,7 +5012,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 0}
+  m_Sprite: {fileID: 21300000, guid: 80cc4c53772f7c34386757e43a7800a8, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -5073,7 +5073,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: this is question 2
+  m_Text: What is this called ?
 --- !u!222 &1637493702
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -5133,7 +5133,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 0.42745098}
+  m_Color: {r: 0.21960786, g: 0.21960786, b: 0.21960786, a: 0}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -5363,7 +5363,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: this is answer 3
+  m_Text: Trigonal pyramidral
 --- !u!222 &1692617645
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -5534,7 +5534,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 0.42745098}
+  m_Color: {r: 0.21960786, g: 0.21960786, b: 0.21960786, a: 0}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -5839,7 +5839,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 0.42745098}
+  m_Color: {r: 0.21960786, g: 0.21960786, b: 0.21960786, a: 0}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -6238,7 +6238,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 0.42745098}
+  m_Color: {r: 0, g: 0, b: 0, a: 0}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
